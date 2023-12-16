@@ -1,0 +1,76 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', Raleway !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    scroll-behavior: smooth;
+    width: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(30, 30, 30, 0.9);
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: white
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background: linear-gradient( rgba(0, 0, 0, .3), rgba(0, 0, 0, .3) ), url('images/DSC02218.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-dark {
+    background-color: rgb(55, 55, 55) !important;
+}
+
+.navbar {
+    transition: 750ms ease;
+    background:transparent;
+}
+.navbar.scrolled {
+    background-color: rgba(40, 40, 40, 0.8);
+}
+
+.go-bot {
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: -50px;
+}
+
+.tali {
+    background-color: rgb(100, 100, 100);
+    padding: 25px;
+}
+
+.tali a {
+    text-decoration: none;
+    color: white;
+    transition: .25s;
+    font-size: 125%;
+}
+
+.tali a:hover {
+    color: rgb(200, 200, 200)
+}
+    
+
